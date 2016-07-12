@@ -1,0 +1,83 @@
+@font-face {
+    font-family: 'PTSansCaptionBold';
+    src: url('../fonts/ptsans/ptc75f.eot');
+    src: url('../fonts/ptsans/ptc75f.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/ptsans/ptc75f.woff') format('woff'),
+         url('../fonts/ptsans/ptc75f.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PTSansCaption';
+    src: url('../fonts/ptsans/ptc55f.eot');
+    src: url('../fonts/ptsans/ptc55f.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/ptsans/ptc55f.woff') format('woff'),
+         url('../fonts/ptsans/ptc55f.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PTSansNarrowRegular';
+    src: url('../fonts/ptsans/ptn57f.eot');
+    src: url('../fonts/ptsans/ptn57f.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/ptsans/ptn57f.woff') format('woff'),
+         url('../fonts/ptsans/ptn57f.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'PTSansNarrowBold';
+    src: url('../fonts/ptsans/ptn77f.eot');
+    src: url('../fonts/ptsans/ptn77f.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/ptsans/ptn77f.woff') format('woff'),
+         url('../fonts/ptsans/ptn77f.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'PTSansItalic';
+    src: url('../fonts/ptsans/pts56f.eot');
+    src: url('../fonts/ptsans/pts56f.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/ptsans/pts56f.woff') format('woff'),
+         url('../fonts/ptsans/pts56f.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'PTSansBoldItalic';
+    src: url('../fonts/ptsans/pts76f.eot');
+    src: url('../fonts/ptsans/pts76f.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/ptsans/pts76f.woff') format('woff'),
+         url('../fonts/ptsans/pts76f.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PTSansBold';
+    src: url('../fonts/ptsans/pts75f.eot');
+    src: url('../fonts/ptsans/pts75f.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/ptsans/pts75f.woff') format('woff'),
+         url('../fonts/ptsans/pts75f.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+     font-family: 'PTSansRegular';
+    src: url('../fonts/ptsans/pts55f.eot');
+    src: url('../fonts/ptsans/pts55f.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/ptsans/pts55f.woff') format('woff'),
+         url('../fonts/ptsans/pts55f.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}

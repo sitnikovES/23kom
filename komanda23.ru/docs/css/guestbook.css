@@ -1,0 +1,16 @@
+.guest_block {
+    margin-top: 3px;
+    border: 1px solid #AAAAAA;
+    font-size: 12px;
+    padding: 3px;
+}
+
+.who{
+    font-size: 10px;
+    color: red;
+}
+
+.ans{
+    margin-left: 25px;
+    font-style: italic;
+}

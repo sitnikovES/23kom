@@ -1,0 +1,17 @@
+#cartype {
+	width: 100%;
+}
+
+.ctype {
+    position: relative;
+    width: 25%;
+    float: left;
+}
+
+#cartype div {
+	margin-bottom: 20px;
+}
+
+#cartype .icon {
+    width: 235px;
+}

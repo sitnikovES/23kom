@@ -1,0 +1,778 @@
+#obsv{
+    position: absolute;
+    width: 1ch;
+    height: 100px;
+    left: -25px;
+    word-wrap: break-word;
+}
+
+#obsv a {
+    width: 1ch;transform: rotate(90deg);
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+}
+
+#online {
+    position: relative;
+    background-color: #dbdbdb;
+}
+
+#online_busy{
+    position: absolute;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("/img/50percent.png");
+    text-align: center;
+    display: none;
+}
+
+#online_busy img{
+    margin-top: 100px;
+}
+
+
+#online .grey_city {
+    position: absolute;
+    width: 100%;
+    height: 252px;
+    background-image: url("/img/index/online/grey_city.jpg");
+}
+
+#online .block_content {
+    padding: 35px 0 35px 0;
+}
+
+#online_smallform {
+    position: relative;
+    min-height: 315px;
+    /*width: 325px;*/
+    width: 485px;
+    height: auto;
+    /*background-color: #FFD000;*/
+    z-index: 3;
+    /*padding-top: 15px;*/
+}
+
+#online .tarif_info ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+#online .tarif_info .detale {
+    padding: 7px;
+    background-color: transparent;
+}
+
+#online .tarif_info ul li:first-child {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#online .tarif_info ul li {
+    font-size: 11px;
+    color: #303030;
+    margin: 0;
+    padding: 0;
+}
+
+#online_tarif div:first-child {
+    padding-left: 10px;
+    font-size: 20px;
+    font-weight: normal;
+    position: relative;
+    height: 35px;
+    padding-top: 10px;
+}
+
+#online_greycity {
+    position: relative;
+    background-image: url("/img/root/grey_city.png");
+    height: 147px;
+}
+
+
+
+#online_grey {
+    position: relative;
+    height: 140px;
+    background-color: #dbdbdb;
+}
+
+
+
+#online_opt_sel {
+    position: relative;
+}
+
+#online_opt_sel .param {
+    float: left;
+    margin-right: 20px;
+    margin-left: 5px;
+}
+
+#online_opt_sel .back {
+    position: absolute;
+    background-color: #ffffff;
+    display: none;
+    top: 20px;
+}
+
+#online_opt_sel .param span{
+    cursor: pointer;
+    text-decoration: underline;
+    color: #303030;
+    font-size: 12px;
+}
+
+#online_serv_sel {
+    width: 245px;
+    height: 110px;
+    padding-left: 12px;
+    padding-top: 12px;
+}
+
+#online_serv_sel img{
+    margin: 5px 10px 5px 10px;
+    cursor: pointer;
+}
+
+#online_callback{
+    position: absolute;
+    top: 33px;
+    left: 0;
+    width: 19px;
+    height: 195px;
+}
+
+#online_body {
+    position: relative;
+    left: 20px;
+    height: 225px;
+    width: 305px;
+    margin-left: 5px;
+    z-index: 3;
+}
+
+#online_time_sel {
+    min-width: 125px;
+}
+
+#online_tarif_sel {
+    min-width: 90px;
+    min-height: 20px;
+}
+
+#online_time_sel ul,  #online_tarif_sel ul{
+    list-style: none;
+    margin: 5px 0 5px 20px;
+    padding: 0;
+    font-size: 12px;
+}
+
+#online_time_sel li, #online_tarif_sel li {
+    cursor: pointer;
+}
+
+#online_time_sel li:hover, #online_tarif_sel li:hover {
+    text-decoration: underline;
+}
+
+#online_time_sel li.active, #online_tarif_sel li.active {
+    list-style-image: url("/img/main/v.png");
+}
+
+#online_body h2 {
+    margin-top: 0;
+    font-size: 16px;
+    text-align: left;
+}
+
+#online_body input {
+    height: 32px;
+    border-radius: 4px;
+    border: 1px solid #c0c0c0;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+#online_body input.big{
+    width: 122px;
+}
+
+
+#online_placeA_street:required:invalid, #online_placeA_house:required:invalid {
+    box-shadow: 0 0 1px 1px red;
+}
+
+#online_body input.bigger{
+    width: 142px;
+}
+
+#online_body input.biggest{
+    margin-top: 10px;
+    width: 276px;
+}
+
+#online_body input.small{
+    width: 65px;
+}
+
+#online_smallform .form_bottom {
+    position: relative;
+    height: 45px;
+    width: 100%;
+    bottom: 0;
+}
+
+#online_save {
+    position: absolute;
+    right: 20px;
+    padding: 3px 10px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 24px;
+    background-color: #767676;
+    color: #FFD000;
+}
+
+#online_price {
+    font-weight: bold;
+    font-size: 12px;
+    padding-left: 5px;
+}
+
+#online_messages {
+    text-align: right;
+    padding-right: 20px;
+    color: #ff0000;
+    float: left;
+    min-height: 45px;
+}
+
+#online_detale {
+    padding-left: 5px;
+    position: relative;
+    min-height: 45px;
+    float: left;
+    margin-right: 5px;
+}
+
+#online_detale span{
+    font-size: 12px;
+    text-decoration: underline;
+}
+
+#online_detale div{
+    font-size: 12px;
+}
+
+#online_callback img {
+    width: 19px;
+    height: 195px;
+}
+
+#online_tarif {
+    position: absolute;
+    height: 330px;
+    width: 155px;
+    z-index: 2;
+    top: 35px;
+    left: 330px
+}
+
+#online_tarif div {
+    margin-bottom: 5px;
+    background-color: #FFD000;
+    position: relative;
+    height: 45px;
+}
+
+#online_tarif div:nth-child(odd){
+    background-color: #F7A013;
+}
+
+#online_tarif .tarif_info {
+    height: 90px;
+}
+
+#main_slider {
+    position: absolute;
+    right: 0;
+    top: 35px;
+    width: 470px;
+    height: 330px;
+    z-index: 2;
+    /*background-color: #FFD000;*/
+    background-image: url("/img/index/slider_bg.png");
+}
+
+#main_slider ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: none;
+}
+
+#main_slider ul li{
+    list-style: none;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+}
+
+#main_slider ul li img {
+    height: 330px;
+    width: 470px;
+}
+
+#rotator ul li.show {
+    z-index:5;
+}
+
+#slider_camera {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 505;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+}
+
+#slider_camera:hover {
+    color: red;
+}
+
+#slider_camera span{
+    font-style: italic;
+    font-size: 12px;
+}
+
+#main_services {
+    position: relative;
+    background-color: #FFD000;
+    height: 140px;
+    font-size: 12px;
+    color: #2C2E35;
+}
+
+#main_services a{
+    color: #2C2E35;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+#main_services a:hover{
+    text-decoration: underline;
+}
+
+#main_services .main_col{
+    float: left;
+    width: 11%;
+    text-align: center;
+    position: relative;
+}
+
+#main_services .main_col img{
+    margin-top: 15px;
+    height: 48px;
+}
+
+#main_services .main_col div{
+    position: absolute;
+    top: 75px;
+    width: 100%;
+}
+
+#map {
+    position: relative;
+    width: 300px;
+    height: 205px;
+    border: solid 1px black;
+}
+
+#main_map {
+    position: relative;
+    float: left;
+    width: 350px;
+    margin-bottom: 25px;
+}
+
+#main_servicegroup {
+    position: relative;
+    float: left;
+    margin-bottom: 25px;
+}
+
+#main_servicegroup h2, #main_map h2 {
+    margin: 25px 0 25px 0;
+    font-weight: normal;
+    text-transform: uppercase;
+    font-size: 33px;
+}
+
+#main_servicegroup #res_1 {
+    font-size: 20px;
+    margin-top: 15px;
+    color: #303030;
+}
+
+#main_servicegroup #res_2 {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #303030;
+}
+
+#main_servicegroup .res_num {
+    width: 38px;
+}
+
+#main_servicegroup .res_num img{
+    width: 36px;
+    height: 36px;
+}
+
+#servgr_list {
+    position: relative;
+    width: 610px;
+}
+
+#servgr_list div {
+    position: relative;
+    float: left;
+    width: 50%;
+    color: #303030;
+    font-size: 17px;
+}
+
+#servgr_list div ul{
+    list-style-image: url("/img/root/marker_yellow.png");
+    margin: 25px 0 0 0;
+}
+
+#servgr_list div ul li {
+    margin-top: 15px;
+}
+
+#main_tarif {
+    background-color: #dbdbdb;
+    text-align: center;
+    padding-top: 25px;
+}
+
+#main_tarif .text {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    top: 30px;
+    color: #303030;
+    font-size: 20px;
+}
+
+#main_tarif .text h3{
+    text-transform: uppercase;
+    color: #F7A013;
+    margin-bottom: 0;
+    margin-top: 10px;
+    font-size: 24px;
+}
+
+#main_tarif .col {
+    position: relative;
+    float: left;
+    width: 33%;
+}
+
+#main_tarif .col .circle {
+     border-radius: 140px;
+     background-color: #ffffff;
+     width: 280px;
+     height: 280px;
+     position: relative;
+     margin-bottom: 60px;
+     box-shadow: 6px -6px #FDD000;
+ }
+
+.tarif_car {
+    top: 150px;
+    position: absolute;
+}
+
+#main_news {
+    position: relative;
+    height: 415px;
+    background-color: #FDD000;
+    padding-top: 25px;
+}
+
+#main_news h2,  #main_partners h2, #main_tarif h2{
+    margin: 0 0 25px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 33px;
+    font-weight: normal;
+}
+
+#main_news .article {
+    float: left;
+    position: relative;
+    width: 33%;
+}
+
+#main_news .article .text_field{
+    position: absolute;
+    top: 120px;
+    width: 250px;
+    left: 15px;
+    font-size: 17px;
+    color: #303030;
+    margin: 0;
+}
+
+#main_news .article .text{
+    position: relative;
+    width: 230px;
+    height: 130px;
+    padding: 0 10px 0 10px;
+    margin: 0;
+    background-color: #ffffff;
+    top: -5px;
+}
+
+#main_news .article h3{
+    margin: 0 0 5px 0;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+#main_news .article .text_more {
+    position: absolute;
+    left: 5px;
+    bottom: 5px;
+}
+
+#main_news .article .text_more a {
+    color: #bdbdbd;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+    font-style: italic;
+}
+
+#main_news .article .text_more a:hover {
+    text-decoration: underline;
+}
+
+#main_partners {
+    background-color: #dbdbdb;
+    position: relative;
+    height: 370px;
+    padding-top: 25px;
+    width: 100%;
+}
+
+#main_partners .partner {
+    position: relative;
+    float: left;
+    height: 256px;
+    width: 50%;
+}
+
+#main_partners .partner .partner1 {
+    position: absolute;
+    height: 100%;
+    width: 555px;
+    left: 0;
+}
+
+#main_partners .partner .partner2 {
+    position: absolute;
+    height: 100%;
+    width: 555px;
+    left: 30px;
+}
+
+#main_partners .partner .partner_logo{
+    position: relative;
+    width: 260px;
+    height: 256px;
+    background-color: #ffffff;
+}
+
+#main_partners .partner_logo .img{
+    position: relative;
+    top: 30px;
+    left: 25px;
+}
+
+#main_partners .partner .partner_triangle_w{
+    position: absolute;
+    background-image: url("/img/index/triangle_44x256.png");
+    width: 44px;
+    height: 256px;
+    left: 260px;
+    top: 0;
+}
+
+#main_partners .partner .partner_triangle_o{
+    position: absolute;
+    background-image: url("/img/index/triangle_37x180.png");
+    width: 37px;
+    height: 180px;
+    left: 230px;
+    top: 38px;
+}
+
+#main_partners .partner_intro {
+    position: absolute;
+    background-color: #FDD000;
+    height: 180px;
+    width: 180px;
+    top: 38px;
+    left: 267px;
+    font-size: 18px;
+    color: #303030;
+}
+
+.partner_intro_text{
+    position: relative;
+    top: 20px;
+    left: 5px;
+    width: 150px;
+}
+
+.partner_more {
+    position: absolute;
+    background-image: url("/img/index/parall.png");
+    width: 157px;
+    height: 35px;
+    bottom: 20px;
+    right: 120px;
+    text-align: center;
+    padding-top: 5px;
+}
+
+.partner_more a {
+    text-decoration: none;
+    font-weight: normal;
+    font-style: italic;
+    color: #303030;
+    font-size: 18px;
+}
+
+.partner_more a:hover {
+    text-decoration: underline;
+}
+
+#main_abc {
+    background-color: #dbdbdb;
+    position: relative;
+    height: 400px;
+}
+
+#abc_online {
+    position: absolute;
+    height: 400px;
+    width: 555px;
+    background-color: #FDD000;
+}
+
+#main_abc #triangle1 {
+    position: absolute;
+    background-image: url("/img/index/triangle_73x400.png");
+    height: 400px;
+    width: 73px;
+    left: 555px;
+}
+
+#abc_corp{
+    position: absolute;
+    right: 0;
+    height: 370px;
+    width: 330px;
+    background-color: #ffffff;
+    top: 30px;
+}
+
+#main_abc #triangle2 {
+    position: absolute;
+    background-image: url("/img/index/triangle_69x370.png");
+    height: 370px;
+    width: 69px;
+    right: 330px;
+    top: 30px;
+}
+
+#abc_online .phone {
+    position: absolute;
+    background-image: url("/img/index/phone.png");
+    width: 164px;
+    height: 326px;
+    top: 40px;
+    left: 10px;
+}
+
+#abc_online .text {
+    position: absolute;
+    width: 360px;
+    left: 200px;
+    top: 50px;
+    text-align: center;
+    color: #303030;
+    font-size: 26px;
+}
+
+#abc_online .text img{
+    height: 32px;
+}
+
+#abc_online h2 {
+    margin-top: 0;
+    font-weight: normal;
+    font-size: 35px;
+}
+
+#abc_corp .text {
+    position: absolute;
+    width: 320px;
+    left: 10px;
+    top: 20px;
+    color: #303030;
+    font-size: 20px;
+}
+
+#abc_corp .text .deviz{
+    font-size: 18px;
+}
+
+#abc_corp h2 {
+    margin-top: 0;
+    font-weight: normal;
+    font-size: 35px;
+}
+
+#main_wish {
+    background-color: #dbdbdb;
+    padding: 35px;
+    text-align: center;
+}
+
+#main_wish h2{
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 70px;
+}
+
+.ind_smart {
+    margin-right: 2px;
+}

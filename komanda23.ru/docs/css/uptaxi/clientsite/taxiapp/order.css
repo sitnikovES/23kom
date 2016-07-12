@@ -1,0 +1,126 @@
+/*****************************************/
+/* Controls                              */
+/*****************************************/
+.control
+{
+    box-sizing: border-box;
+    height: 30px;
+}
+.control.button.active,
+.control.input.active,
+.control.completer.active,
+.control.dropdown.active,
+.control.multidropdown.active
+{
+    border-color: #FF8B00;
+    outline: none;
+    box-shadow: inset 0 0 2px #FFB92B,0 0 3px #FFA63B;
+}
+.control.input input,
+.control.dropdown input,
+.control.multidropdown input,
+.control.completer input
+{
+    width: 100%;
+    height: 100%;
+    font: normal 14px/28px Arial;
+    color: #666;
+    padding: 0 4px;
+    border-radius: 4px;
+    background: transparent;
+    /*border: solid 1px #cccccc;*/
+    /*background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#f8f8f8), to(#eaeaea));*/
+}
+.control.input,
+.control.completer
+{
+    box-sizing: border-box;
+    background-color: white;
+    border: 1px solid #aaa;
+    border-radius: 3px;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,0.06),0 1px rgba(255,255,255,0.4);
+}
+.control.dropdown,
+.control.multidropdown
+{
+    box-sizing: border-box;
+    cursor: pointer;
+    border: 1px solid #aaa;
+    border-radius: 3px;
+    background-image: linear-gradient(to bottom, #fcfcfc,#e8e8e8);
+    box-shadow: inset 0 1px #fff,inset 0 0 0 1px rgba(255,255,255,0.3),0 1px 1px rgba(0,0,0,0.05);
+}
+.control.list
+{
+    padding: 1px 2px;
+    margin-top: 4px;
+
+    background-color: #fff;
+    background-image: none;
+    border: solid 1px #aaa;
+    border-radius: 4px;
+}
+.control.list::-webkit-scrollbar 
+{
+    width: 4px;
+    margin: 2px;
+    padding: 2px;
+}
+.control.list::-webkit-scrollbar-track 
+{
+    background-color: transparent;
+}
+.control.list::-webkit-scrollbar-thumb 
+{
+    background-color: #aaa;
+}
+.control.list .item
+{
+    box-sizing: border-box;
+    font: normal 12px Arial;
+    color: #666;
+    width: 100%;
+    margin: 1px 0px;
+    cursor: default;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 4px;
+    border-radius: 4px;
+    -webkit-user-select: none;
+}
+.control.list .item strong
+{
+    color: #f66;
+}
+.control.list .item:hover strong, .control.list .item.active strong
+{
+    color: #fff;
+    font-weight: normal;
+}
+.control.list .item:hover
+{
+    background: #FAA51A;
+    color: #fff;
+}
+.control.list .item.active
+{
+    background: #F47A20;
+    color: #fff;
+}
+.control.button
+{
+	border-radius: 4px;
+	cursor: pointer;
+	font: 14px/28px Tahoma;
+	padding: 0 15px;
+	text-shadow: 0 1px 1px rgba(0,0,0,0.3);
+}
+.control.button.white 
+{
+    text-shadow: initial;
+}
+
+#datapred{
+    width: 200px;
+}

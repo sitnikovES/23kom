@@ -1,0 +1,19 @@
+.car_img_container {
+    margin-bottom: 5px;
+    margin-top: 5px;
+    border: solid 1px #c0c0c0;
+    position: relative;
+}
+
+.carphoto_del {
+    position: absolute;
+    right: 3px;
+    top: 3px;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.carphoto_del:hover {
+    color: #ff0000;
+}
